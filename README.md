@@ -24,10 +24,14 @@ commit.c: commit_create
 ---
 
 ## Build and Test Commands Used
-make clean
+make clean 
+
 make all
+
 ./test_objects
+
 ./test_tree
+
 ./test_sequence.sh
 
 
